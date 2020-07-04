@@ -1,0 +1,85 @@
+
+h1 {font-weight: 400;
+    font-size: 50%;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color: seashell;
+  }
+
+#landing-text h2 {
+    color: rgb(245, 170, 127);
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}    
+
+h2{ font-weight: 400;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+nav a {
+	padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color:wheat;
+    transition: background 500ms ease;
+    text-align: center;
+}
+
+nav a :focus{
+    color: rosybrown;
+    text-decoration: none;
+}
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+    
+    color: #fff;
+    
+}
+
+main{
+
+    max-width: 100%;
+    margin:auto;
+    background-color: rgb(32, 22, 21);
+    
+}
+    
+.title{
+    color: thistle;
+    text-align: center;
+    
+}
+
+ footer{
+ 	text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: whitesmoke;
+    background:rgb(22, 21, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 	
+
+
